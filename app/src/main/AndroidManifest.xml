@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sisteminventory">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/toko_galih"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/toko_galih"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SistemInventory">
+        <activity android:name=".TambahStok"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Jual" />
+        <activity android:name=".HistoriPenjualan" />
+        <activity android:name=".HistoriPembelian" />
+        <activity android:name=".Histori" />
+        <activity android:name=".Penjualan" />
+        <activity android:name=".KelolaBarang" />
+        <activity android:name=".JenisBarangBaru" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
